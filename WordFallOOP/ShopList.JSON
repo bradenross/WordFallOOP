@@ -1,0 +1,42 @@
+[
+    {
+        "name": "default",
+        "price": 0,
+        "text0": "white",
+        "text1": "white",
+        "text2": "white",
+        "text3": "white",
+    },
+    {
+        "name": "america",
+        "price": 1776,
+        "text0": "white",
+        "text1": "white",
+        "text2": "white",
+        "text3": "white",
+    },
+    {
+        "name": "blackwhite",
+        "price": 1500,
+        "text0": "black",
+        "text1": "black",
+        "text2": "white",
+        "text3": "white",
+    },
+    {
+        "name": "silvergold",
+        "price": 1000,
+        "text0": "white",
+        "text1": "white",
+        "text2": "white",
+        "text3": "white",
+    },
+    {
+        "name": "pinkpurple",
+        "price": 1000,
+        "text0": "white",
+        "text1": "white",
+        "text2": "white",
+        "text3": "white",
+    }
+]

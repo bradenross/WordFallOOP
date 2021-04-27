@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14CD267617AF233D45E386B3 /* Pods_WordFallOOP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417D53089142FBEA71627F5F /* Pods_WordFallOOP.framework */; };
 		9C3688CD241DBABF0046B2CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3688CC241DBABF0046B2CB /* AppDelegate.swift */; };
 		9C3688CF241DBABF0046B2CB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688CE241DBABF0046B2CB /* GameScene.sks */; };
 		9C3688D1241DBABF0046B2CB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688D0241DBABF0046B2CB /* Actions.sks */; };
@@ -15,10 +16,64 @@
 		9C3688D8241DBABF0046B2CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688D6241DBABF0046B2CB /* Main.storyboard */; };
 		9C3688DA241DBAC00046B2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688D9241DBAC00046B2CB /* Assets.xcassets */; };
 		9C3688DD241DBAC00046B2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688DB241DBAC00046B2CB /* LaunchScreen.storyboard */; };
+		9C3688E5241DBB460046B2CB /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3688E4241DBB460046B2CB /* Letter.swift */; };
+		9C3688E7241DDD010046B2CB /* ScreenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3688E6241DDD010046B2CB /* ScreenSettings.swift */; };
+		9C3688E9241E093C0046B2CB /* GameSceneTouchesAndSwipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3688E8241E093C0046B2CB /* GameSceneTouchesAndSwipes.swift */; };
+		9C3688EB241E09C40046B2CB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3688EA241E09C40046B2CB /* Button.swift */; };
+		9C3688ED2420777C0046B2CB /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3688EC2420777C0046B2CB /* MainMenu.swift */; };
+		9C3688EF24207CB40046B2CB /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688EE24207CB40046B2CB /* MainMenu.sks */; };
+		9C3688F32421DB100046B2CB /* WarningLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3688F22421DB100046B2CB /* WarningLabel.swift */; };
+		9C36890E2422E89F0046B2CB /* 14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688F42422E89A0046B2CB /* 14.txt */; };
+		9C36890F2422E89F0046B2CB /* 28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688F52422E89A0046B2CB /* 28.txt */; };
+		9C3689102422E89F0046B2CB /* 18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688F62422E89B0046B2CB /* 18.txt */; };
+		9C3689112422E89F0046B2CB /* 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688F72422E89B0046B2CB /* 7.txt */; };
+		9C3689122422E89F0046B2CB /* 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688F82422E89B0046B2CB /* 2.txt */; };
+		9C3689132422E89F0046B2CB /* 12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688F92422E89B0046B2CB /* 12.txt */; };
+		9C3689142422E89F0046B2CB /* 27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688FA2422E89C0046B2CB /* 27.txt */; };
+		9C3689152422E89F0046B2CB /* 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688FB2422E89C0046B2CB /* 3.txt */; };
+		9C3689162422E89F0046B2CB /* 22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688FC2422E89C0046B2CB /* 22.txt */; };
+		9C3689172422E89F0046B2CB /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688FD2422E89C0046B2CB /* 5.txt */; };
+		9C3689182422E89F0046B2CB /* 17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688FE2422E89C0046B2CB /* 17.txt */; };
+		9C3689192422E89F0046B2CB /* 23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3688FF2422E89D0046B2CB /* 23.txt */; };
+		9C36891A2422E89F0046B2CB /* 16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689002422E89D0046B2CB /* 16.txt */; };
+		9C36891B2422E89F0046B2CB /* 21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689012422E89D0046B2CB /* 21.txt */; };
+		9C36891C2422E89F0046B2CB /* 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689022422E89D0046B2CB /* 6.txt */; };
+		9C36891D2422E89F0046B2CB /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689032422E89D0046B2CB /* 4.txt */; };
+		9C36891E2422E89F0046B2CB /* 20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689042422E89D0046B2CB /* 20.txt */; };
+		9C36891F2422E89F0046B2CB /* 19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689052422E89E0046B2CB /* 19.txt */; };
+		9C3689202422E89F0046B2CB /* 13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689062422E89E0046B2CB /* 13.txt */; };
+		9C3689212422E89F0046B2CB /* 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689072422E89E0046B2CB /* 9.txt */; };
+		9C3689222422E89F0046B2CB /* 15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689082422E89E0046B2CB /* 15.txt */; };
+		9C3689232422E89F0046B2CB /* 24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C3689092422E89E0046B2CB /* 24.txt */; };
+		9C3689242422E89F0046B2CB /* 25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C36890A2422E89E0046B2CB /* 25.txt */; };
+		9C3689252422E89F0046B2CB /* 11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C36890B2422E89F0046B2CB /* 11.txt */; };
+		9C3689262422E89F0046B2CB /* 10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C36890C2422E89F0046B2CB /* 10.txt */; };
+		9C3689272422E89F0046B2CB /* 8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C36890D2422E89F0046B2CB /* 8.txt */; };
+		9C36892A242344170046B2CB /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C368929242344170046B2CB /* Shop.swift */; };
+		9C36892C242344750046B2CB /* Shop.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9C36892B242344750046B2CB /* Shop.sks */; };
+		9C4ED0B72454092B00BB9062 /* TutorialSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4ED0B62454092B00BB9062 /* TutorialSteps.swift */; };
+		9C4ED0B92454E3FE00BB9062 /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4ED0B82454E3FE00BB9062 /* SettingScene.swift */; };
+		9C7A5E44245151C7005615DB /* coins-in-hand-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C7A5E43245151C7005615DB /* coins-in-hand-1.mp3 */; };
+		9C7A5E4624517292005615DB /* AdMobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A5E4524517292005615DB /* AdMobViewController.swift */; };
+		9C7A5E48245215A9005615DB /* TutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A5E47245215A9005615DB /* TutorialScene.swift */; };
+		9C7A5E4D24521767005615DB /* TutorialTouchesAndSwipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A5E4C24521767005615DB /* TutorialTouchesAndSwipes.swift */; };
+		9C7A5E52245268B7005615DB /* TutLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A5E51245268B7005615DB /* TutLetter.swift */; };
+		9CC54E88245008E4002972F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC54E87245008E4002972F4 /* Default-568h@2x.png */; };
+		9CD6213724249C1000A3B6EE /* Lucida-Handwriting-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CD6213524249BE200A3B6EE /* Lucida-Handwriting-Italic.ttf */; };
+		9CD62139242596E600A3B6EE /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD62138242596E600A3B6EE /* ShopItem.swift */; };
+		9CD6213B2425973400A3B6EE /* ShopPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6213A2425973400A3B6EE /* ShopPopup.swift */; };
+		9CD6213D242B31C000A3B6EE /* PurchaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6213C242B31C000A3B6EE /* PurchaseButton.swift */; };
+		9CD6217A2430069100A3B6EE /* ShopList.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 9CD621792430069100A3B6EE /* ShopList.JSON */; };
+		9CD6217C2431885500A3B6EE /* LetterJSONInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6217B2431885500A3B6EE /* LetterJSONInfo.swift */; };
+		9CF6681D2432F4A7007B22E5 /* EndGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6681C2432F4A7007B22E5 /* EndGame.swift */; };
+		9CF6681F2433B9BC007B22E5 /* LetterOddsAndScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6681E2433B9BC007B22E5 /* LetterOddsAndScores.swift */; };
+		9CFFC3CD244439C3000EBAE5 /* Powerups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFFC3CC244439C3000EBAE5 /* Powerups.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C3688C9241DBABF0046B2CB /* WordFallOOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordFallOOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417D53089142FBEA71627F5F /* Pods_WordFallOOP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordFallOOP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662FE453BCA4654BDB2537F6 /* Pods-WordFallOOP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordFallOOP.release.xcconfig"; path = "Target Support Files/Pods-WordFallOOP/Pods-WordFallOOP.release.xcconfig"; sourceTree = "<group>"; };
+		9C3688C9241DBABF0046B2CB /* WordFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3688CC241DBABF0046B2CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C3688CE241DBABF0046B2CB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		9C3688D0241DBABF0046B2CB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -28,6 +83,59 @@
 		9C3688D9241DBAC00046B2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C3688DC241DBAC00046B2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3688DE241DBAC00046B2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3688E4241DBB460046B2CB /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		9C3688E6241DDD010046B2CB /* ScreenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSettings.swift; sourceTree = "<group>"; };
+		9C3688E8241E093C0046B2CB /* GameSceneTouchesAndSwipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneTouchesAndSwipes.swift; sourceTree = "<group>"; };
+		9C3688EA241E09C40046B2CB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		9C3688EC2420777C0046B2CB /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		9C3688EE24207CB40046B2CB /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		9C3688F22421DB100046B2CB /* WarningLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningLabel.swift; sourceTree = "<group>"; };
+		9C3688F42422E89A0046B2CB /* 14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 14.txt; sourceTree = "<group>"; };
+		9C3688F52422E89A0046B2CB /* 28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 28.txt; sourceTree = "<group>"; };
+		9C3688F62422E89B0046B2CB /* 18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 18.txt; sourceTree = "<group>"; };
+		9C3688F72422E89B0046B2CB /* 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 7.txt; sourceTree = "<group>"; };
+		9C3688F82422E89B0046B2CB /* 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
+		9C3688F92422E89B0046B2CB /* 12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 12.txt; sourceTree = "<group>"; };
+		9C3688FA2422E89C0046B2CB /* 27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 27.txt; sourceTree = "<group>"; };
+		9C3688FB2422E89C0046B2CB /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
+		9C3688FC2422E89C0046B2CB /* 22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 22.txt; sourceTree = "<group>"; };
+		9C3688FD2422E89C0046B2CB /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
+		9C3688FE2422E89C0046B2CB /* 17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 17.txt; sourceTree = "<group>"; };
+		9C3688FF2422E89D0046B2CB /* 23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 23.txt; sourceTree = "<group>"; };
+		9C3689002422E89D0046B2CB /* 16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 16.txt; sourceTree = "<group>"; };
+		9C3689012422E89D0046B2CB /* 21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 21.txt; sourceTree = "<group>"; };
+		9C3689022422E89D0046B2CB /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 6.txt; sourceTree = "<group>"; };
+		9C3689032422E89D0046B2CB /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
+		9C3689042422E89D0046B2CB /* 20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20.txt; sourceTree = "<group>"; };
+		9C3689052422E89E0046B2CB /* 19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 19.txt; sourceTree = "<group>"; };
+		9C3689062422E89E0046B2CB /* 13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 13.txt; sourceTree = "<group>"; };
+		9C3689072422E89E0046B2CB /* 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9.txt; sourceTree = "<group>"; };
+		9C3689082422E89E0046B2CB /* 15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 15.txt; sourceTree = "<group>"; };
+		9C3689092422E89E0046B2CB /* 24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 24.txt; sourceTree = "<group>"; };
+		9C36890A2422E89E0046B2CB /* 25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 25.txt; sourceTree = "<group>"; };
+		9C36890B2422E89F0046B2CB /* 11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 11.txt; sourceTree = "<group>"; };
+		9C36890C2422E89F0046B2CB /* 10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10.txt; sourceTree = "<group>"; };
+		9C36890D2422E89F0046B2CB /* 8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 8.txt; sourceTree = "<group>"; };
+		9C368929242344170046B2CB /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		9C36892B242344750046B2CB /* Shop.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Shop.sks; sourceTree = "<group>"; };
+		9C4ED0B62454092B00BB9062 /* TutorialSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialSteps.swift; sourceTree = "<group>"; };
+		9C4ED0B82454E3FE00BB9062 /* SettingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScene.swift; sourceTree = "<group>"; };
+		9C7A5E43245151C7005615DB /* coins-in-hand-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "coins-in-hand-1.mp3"; path = "../../../Downloads/coins-in-hand-1.mp3"; sourceTree = "<group>"; };
+		9C7A5E4524517292005615DB /* AdMobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobViewController.swift; sourceTree = "<group>"; };
+		9C7A5E47245215A9005615DB /* TutorialScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScene.swift; sourceTree = "<group>"; };
+		9C7A5E4C24521767005615DB /* TutorialTouchesAndSwipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTouchesAndSwipes.swift; sourceTree = "<group>"; };
+		9C7A5E51245268B7005615DB /* TutLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutLetter.swift; sourceTree = "<group>"; };
+		9CC54E87245008E4002972F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9CD6213524249BE200A3B6EE /* Lucida-Handwriting-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lucida-Handwriting-Italic.ttf"; sourceTree = "<group>"; };
+		9CD62138242596E600A3B6EE /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		9CD6213A2425973400A3B6EE /* ShopPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPopup.swift; sourceTree = "<group>"; };
+		9CD6213C242B31C000A3B6EE /* PurchaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButton.swift; sourceTree = "<group>"; };
+		9CD621792430069100A3B6EE /* ShopList.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ShopList.JSON; sourceTree = "<group>"; };
+		9CD6217B2431885500A3B6EE /* LetterJSONInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterJSONInfo.swift; sourceTree = "<group>"; };
+		9CF6681C2432F4A7007B22E5 /* EndGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGame.swift; sourceTree = "<group>"; };
+		9CF6681E2433B9BC007B22E5 /* LetterOddsAndScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterOddsAndScores.swift; sourceTree = "<group>"; };
+		9CFFC3CC244439C3000EBAE5 /* Powerups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerups.swift; sourceTree = "<group>"; };
+		B066CDCA9E011B597B6547C3 /* Pods-WordFallOOP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordFallOOP.debug.xcconfig"; path = "Target Support Files/Pods-WordFallOOP/Pods-WordFallOOP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,24 +143,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CD267617AF233D45E386B3 /* Pods_WordFallOOP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36475222F4502F3A0CC6AEDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417D53089142FBEA71627F5F /* Pods_WordFallOOP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FBAADFE90B23765B4A80AD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B066CDCA9E011B597B6547C3 /* Pods-WordFallOOP.debug.xcconfig */,
+				662FE453BCA4654BDB2537F6 /* Pods-WordFallOOP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9C3688C0241DBABF0046B2CB = {
 			isa = PBXGroup;
 			children = (
+				9CC54E87245008E4002972F4 /* Default-568h@2x.png */,
 				9C3688CB241DBABF0046B2CB /* WordFallOOP */,
 				9C3688CA241DBABF0046B2CB /* Products */,
+				9C3689282422E8A80046B2CB /* Words */,
+				6FBAADFE90B23765B4A80AD2 /* Pods */,
+				36475222F4502F3A0CC6AEDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9C3688CA241DBABF0046B2CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C3688C9241DBABF0046B2CB /* WordFallOOP.app */,
+				9C3688C9241DBABF0046B2CB /* WordFall.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,17 +190,107 @@
 		9C3688CB241DBABF0046B2CB /* WordFallOOP */ = {
 			isa = PBXGroup;
 			children = (
-				9C3688CC241DBABF0046B2CB /* AppDelegate.swift */,
-				9C3688CE241DBABF0046B2CB /* GameScene.sks */,
-				9C3688D0241DBABF0046B2CB /* Actions.sks */,
-				9C3688D2241DBABF0046B2CB /* GameScene.swift */,
-				9C3688D4241DBABF0046B2CB /* GameViewController.swift */,
-				9C3688D6241DBABF0046B2CB /* Main.storyboard */,
+				9C7A5E43245151C7005615DB /* coins-in-hand-1.mp3 */,
 				9C3688D9241DBAC00046B2CB /* Assets.xcassets */,
+				9C3688CC241DBABF0046B2CB /* AppDelegate.swift */,
+				9C7A5E4524517292005615DB /* AdMobViewController.swift */,
+				9C3688D0241DBABF0046B2CB /* Actions.sks */,
+				9C3688F024207E8E0046B2CB /* Objects */,
+				9C3688F124207E9D0046B2CB /* Scenes */,
+				9C3688E8241E093C0046B2CB /* GameSceneTouchesAndSwipes.swift */,
+				9CF6681E2433B9BC007B22E5 /* LetterOddsAndScores.swift */,
+				9C3688E6241DDD010046B2CB /* ScreenSettings.swift */,
+				9C3688D4241DBABF0046B2CB /* GameViewController.swift */,
+				9CD6217B2431885500A3B6EE /* LetterJSONInfo.swift */,
+				9CD621792430069100A3B6EE /* ShopList.JSON */,
+				9C3688D6241DBABF0046B2CB /* Main.storyboard */,
 				9C3688DB241DBAC00046B2CB /* LaunchScreen.storyboard */,
 				9C3688DE241DBAC00046B2CB /* Info.plist */,
+				9CD6213624249C0000A3B6EE /* Fonts */,
 			);
 			path = WordFallOOP;
+			sourceTree = "<group>";
+		};
+		9C3688F024207E8E0046B2CB /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9C3688EA241E09C40046B2CB /* Button.swift */,
+				9CF6681C2432F4A7007B22E5 /* EndGame.swift */,
+				9C3688E4241DBB460046B2CB /* Letter.swift */,
+				9CD6213C242B31C000A3B6EE /* PurchaseButton.swift */,
+				9CD62138242596E600A3B6EE /* ShopItem.swift */,
+				9CD6213A2425973400A3B6EE /* ShopPopup.swift */,
+				9C3688F22421DB100046B2CB /* WarningLabel.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		9C3688F124207E9D0046B2CB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9C3688EC2420777C0046B2CB /* MainMenu.swift */,
+				9C3688EE24207CB40046B2CB /* MainMenu.sks */,
+				9C3688D2241DBABF0046B2CB /* GameScene.swift */,
+				9C3688CE241DBABF0046B2CB /* GameScene.sks */,
+				9CFFC3CC244439C3000EBAE5 /* Powerups.swift */,
+				9C4ED0B82454E3FE00BB9062 /* SettingScene.swift */,
+				9C368929242344170046B2CB /* Shop.swift */,
+				9C36892B242344750046B2CB /* Shop.sks */,
+				9C7A5E4E2452177E005615DB /* Tutorial */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9C3689282422E8A80046B2CB /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				9C3688F82422E89B0046B2CB /* 2.txt */,
+				9C3688FB2422E89C0046B2CB /* 3.txt */,
+				9C3689032422E89D0046B2CB /* 4.txt */,
+				9C3688FD2422E89C0046B2CB /* 5.txt */,
+				9C3689022422E89D0046B2CB /* 6.txt */,
+				9C3688F72422E89B0046B2CB /* 7.txt */,
+				9C36890D2422E89F0046B2CB /* 8.txt */,
+				9C3689072422E89E0046B2CB /* 9.txt */,
+				9C36890C2422E89F0046B2CB /* 10.txt */,
+				9C36890B2422E89F0046B2CB /* 11.txt */,
+				9C3688F92422E89B0046B2CB /* 12.txt */,
+				9C3689062422E89E0046B2CB /* 13.txt */,
+				9C3688F42422E89A0046B2CB /* 14.txt */,
+				9C3689082422E89E0046B2CB /* 15.txt */,
+				9C3689002422E89D0046B2CB /* 16.txt */,
+				9C3688FE2422E89C0046B2CB /* 17.txt */,
+				9C3688F62422E89B0046B2CB /* 18.txt */,
+				9C3689052422E89E0046B2CB /* 19.txt */,
+				9C3689042422E89D0046B2CB /* 20.txt */,
+				9C3689012422E89D0046B2CB /* 21.txt */,
+				9C3688FC2422E89C0046B2CB /* 22.txt */,
+				9C3688FF2422E89D0046B2CB /* 23.txt */,
+				9C3689092422E89E0046B2CB /* 24.txt */,
+				9C36890A2422E89E0046B2CB /* 25.txt */,
+				9C3688FA2422E89C0046B2CB /* 27.txt */,
+				9C3688F52422E89A0046B2CB /* 28.txt */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		9C7A5E4E2452177E005615DB /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A5E47245215A9005615DB /* TutorialScene.swift */,
+				9C7A5E51245268B7005615DB /* TutLetter.swift */,
+				9C7A5E4C24521767005615DB /* TutorialTouchesAndSwipes.swift */,
+				9C4ED0B62454092B00BB9062 /* TutorialSteps.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		9CD6213624249C0000A3B6EE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9CD6213524249BE200A3B6EE /* Lucida-Handwriting-Italic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C3688E1241DBAC00046B2CB /* Build configuration list for PBXNativeTarget "WordFallOOP" */;
 			buildPhases = (
+				CFB4A9F2599BCCA74575C431 /* [CP] Check Pods Manifest.lock */,
 				9C3688C5241DBABF0046B2CB /* Sources */,
 				9C3688C6241DBABF0046B2CB /* Frameworks */,
 				9C3688C7241DBABF0046B2CB /* Resources */,
+				01245D0BE77E1DF7FAAD39C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,7 +312,7 @@
 			);
 			name = WordFallOOP;
 			productName = WordFallOOP;
-			productReference = 9C3688C9241DBABF0046B2CB /* WordFallOOP.app */;
+			productReference = 9C3688C9241DBABF0046B2CB /* WordFall.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,24 +353,118 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3689252422E89F0046B2CB /* 11.txt in Resources */,
+				9C3689162422E89F0046B2CB /* 22.txt in Resources */,
+				9CD6217A2430069100A3B6EE /* ShopList.JSON in Resources */,
+				9C36891A2422E89F0046B2CB /* 16.txt in Resources */,
+				9C3689142422E89F0046B2CB /* 27.txt in Resources */,
+				9C7A5E44245151C7005615DB /* coins-in-hand-1.mp3 in Resources */,
+				9C36891C2422E89F0046B2CB /* 6.txt in Resources */,
+				9C3689122422E89F0046B2CB /* 2.txt in Resources */,
+				9C3689202422E89F0046B2CB /* 13.txt in Resources */,
+				9C3689262422E89F0046B2CB /* 10.txt in Resources */,
+				9C3689232422E89F0046B2CB /* 24.txt in Resources */,
+				9CD6213724249C1000A3B6EE /* Lucida-Handwriting-Italic.ttf in Resources */,
+				9C36890E2422E89F0046B2CB /* 14.txt in Resources */,
 				9C3688D8241DBABF0046B2CB /* Main.storyboard in Resources */,
+				9C3689272422E89F0046B2CB /* 8.txt in Resources */,
+				9C3689242422E89F0046B2CB /* 25.txt in Resources */,
+				9C3688EF24207CB40046B2CB /* MainMenu.sks in Resources */,
 				9C3688CF241DBABF0046B2CB /* GameScene.sks in Resources */,
+				9C3689112422E89F0046B2CB /* 7.txt in Resources */,
+				9C36891E2422E89F0046B2CB /* 20.txt in Resources */,
+				9C3689172422E89F0046B2CB /* 5.txt in Resources */,
+				9C36892C242344750046B2CB /* Shop.sks in Resources */,
+				9C36891D2422E89F0046B2CB /* 4.txt in Resources */,
 				9C3688DA241DBAC00046B2CB /* Assets.xcassets in Resources */,
+				9C3689152422E89F0046B2CB /* 3.txt in Resources */,
 				9C3688DD241DBAC00046B2CB /* LaunchScreen.storyboard in Resources */,
+				9C36890F2422E89F0046B2CB /* 28.txt in Resources */,
 				9C3688D1241DBABF0046B2CB /* Actions.sks in Resources */,
+				9C36891B2422E89F0046B2CB /* 21.txt in Resources */,
+				9C3689222422E89F0046B2CB /* 15.txt in Resources */,
+				9CC54E88245008E4002972F4 /* Default-568h@2x.png in Resources */,
+				9C3689212422E89F0046B2CB /* 9.txt in Resources */,
+				9C3689182422E89F0046B2CB /* 17.txt in Resources */,
+				9C3689102422E89F0046B2CB /* 18.txt in Resources */,
+				9C3689132422E89F0046B2CB /* 12.txt in Resources */,
+				9C36891F2422E89F0046B2CB /* 19.txt in Resources */,
+				9C3689192422E89F0046B2CB /* 23.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01245D0BE77E1DF7FAAD39C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordFallOOP/Pods-WordFallOOP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WordFallOOP/Pods-WordFallOOP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WordFallOOP/Pods-WordFallOOP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB4A9F2599BCCA74575C431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordFallOOP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C3688C5241DBABF0046B2CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3688EB241E09C40046B2CB /* Button.swift in Sources */,
+				9C4ED0B72454092B00BB9062 /* TutorialSteps.swift in Sources */,
 				9C3688D3241DBABF0046B2CB /* GameScene.swift in Sources */,
+				9C7A5E4D24521767005615DB /* TutorialTouchesAndSwipes.swift in Sources */,
 				9C3688D5241DBABF0046B2CB /* GameViewController.swift in Sources */,
+				9CD6217C2431885500A3B6EE /* LetterJSONInfo.swift in Sources */,
+				9C36892A242344170046B2CB /* Shop.swift in Sources */,
+				9CD6213B2425973400A3B6EE /* ShopPopup.swift in Sources */,
+				9C3688F32421DB100046B2CB /* WarningLabel.swift in Sources */,
+				9CD6213D242B31C000A3B6EE /* PurchaseButton.swift in Sources */,
+				9C3688ED2420777C0046B2CB /* MainMenu.swift in Sources */,
+				9CF6681D2432F4A7007B22E5 /* EndGame.swift in Sources */,
+				9CD62139242596E600A3B6EE /* ShopItem.swift in Sources */,
+				9C3688E7241DDD010046B2CB /* ScreenSettings.swift in Sources */,
 				9C3688CD241DBABF0046B2CB /* AppDelegate.swift in Sources */,
+				9C7A5E52245268B7005615DB /* TutLetter.swift in Sources */,
+				9C4ED0B92454E3FE00BB9062 /* SettingScene.swift in Sources */,
+				9C3688E5241DBB460046B2CB /* Letter.swift in Sources */,
+				9C7A5E48245215A9005615DB /* TutorialScene.swift in Sources */,
+				9C7A5E4624517292005615DB /* AdMobViewController.swift in Sources */,
+				9CF6681F2433B9BC007B22E5 /* LetterOddsAndScores.swift in Sources */,
+				9CFFC3CD244439C3000EBAE5 /* Powerups.swift in Sources */,
+				9C3688E9241E093C0046B2CB /* GameSceneTouchesAndSwipes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,37 +606,43 @@
 		};
 		9C3688E2241DBAC00046B2CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B066CDCA9E011B597B6547C3 /* Pods-WordFallOOP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4LPCV87RQ2;
 				INFOPLIST_FILE = WordFallOOP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Braden-Ross.WordFallOOP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Braden-Ross.Word-Fall";
+				PRODUCT_NAME = WordFall;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9C3688E3241DBAC00046B2CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662FE453BCA4654BDB2537F6 /* Pods-WordFallOOP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4LPCV87RQ2;
 				INFOPLIST_FILE = WordFallOOP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Braden-Ross.WordFallOOP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Braden-Ross.Word-Fall";
+				PRODUCT_NAME = WordFall;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
